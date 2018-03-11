@@ -1,0 +1,6 @@
+//INSERT INTO "users"(username, password, enabled, created) VALUES ('Admin', 'admin', TRUE, NOW()), ('User', 'user', FALSE, NOW());
+//INSERT INTO "role"(name) VALUES ('ROLE_ADMIN'), ('ROLE_USER');
+//INSERT INTO "user_role"(user_id, role_id) VALUES ('1', '1'), ('1', '2'), ('2', '2');
+INSERT INTO "restaurant"(name, description) VALUES ('Restaurace1', 'Popis1'), ('Restaurace2', 'Popis2');
+INSERT INTO "menu"(menudate, menudescription, restaurant_idrestaurant) VALUES ('2018-03-04', 'Last Sunday menu', 1), ('2018-03-05', 'Monday menu', 1), ('2018-03-06', 'Tuesday menu', 1), ('2018-03-07', 'Wednesday menu', 1), ('2018-03-08', 'Thursday menu', 1), ('2018-03-09', 'Friday menu', 1), ('2018-03-10', 'Saturday menu', 1), ('2018-03-11', 'Sunday menu', 1), ('2018-03-12', 'Next monday menu', 1);
+INSERT INTO "menu"(menudate, menudescription, restaurant_idrestaurant) VALUES ('2018-03-04', 'Last Sunday menu2', 2), ('2018-03-05', 'Monday menu2', 2), ('2018-03-06', 'Tuesday menu2', 2), ('2018-03-07', 'Wednesday menu2', 2), ('2018-03-08', 'Thursday menu2', 2), ('2018-03-09', 'Friday menu2', 2), ('2018-03-10', 'Saturday menu2', 2), ('2018-03-11', 'Sunday menu2', 2), ('2018-03-12', 'Next monday menu2', 2);
