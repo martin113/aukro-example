@@ -1,8 +1,5 @@
 package com.example.restaurantmenus.model;
 
-import com.example.restaurantmenus.entity.Menu;
-import com.example.restaurantmenus.model.MenuDTO;
-
 import java.util.List;
 
 public class RestaurantDetailDTO {

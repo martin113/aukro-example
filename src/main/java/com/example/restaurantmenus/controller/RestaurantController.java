@@ -1,8 +1,8 @@
 package com.example.restaurantmenus.controller;
 
 import com.example.restaurantmenus.entity.Restaurant;
-import com.example.restaurantmenus.service.RestaurantService;
 import com.example.restaurantmenus.model.RestaurantDetailDTO;
+import com.example.restaurantmenus.service.RestaurantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
